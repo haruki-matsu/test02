@@ -1,0 +1,67 @@
+# 🚀 起動手順
+
+```bash
+# 0️⃣ Google Drive からプロジェクトをダウンロード
+# フォルダを右クリック → 「ダウンロード」
+# ZIPファイルが保存されるので、任意の場所で解凍します。
+```
+
+```bash
+# 1️⃣ .env に OpenAI APIキーを設定
+# （すでに .env がある場合は OPENAI_API_KEY の行にキーを入力）
+# プロジェクト直下に .env ファイルがない場合は、以下を実行して作成：
+$ echo "OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" > .env
+```
+
+```bash
+# 2️⃣ プロジェクトフォルダに移動
+$ cd llm_serch
+```
+
+```bash
+# 3️⃣ 仮想環境を作成・アクティブにする
+# 仮想環境(.venv)まで送るとコードが大量になるため、
+# 各自の環境で以下を実行して作成してください。
+
+# 仮想環境の作成
+$ python -m venv .venv
+
+# アクティブ化
+## macOS / Linux の場合
+$ source .venv/bin/activate
+
+## Windows (PowerShell) の場合
+$ .venv\Scripts\activate
+```
+
+```bash
+# 4️⃣ 必要なパッケージをインストール
+# requirements.txt に記載されたライブラリを自動でインストールします。(アクティブ化された状態で)
+$ pip install -r requirements.txt
+```
+
+```bash
+# 5️⃣ main.py を実行
+$ python main.py
+```
+
+```bash
+# ✅ 実行完了後に以下のファイルが生成されます
+# - excel_analysis.json   （Excelの解析結果）
+# - ai_mapped_result.json （AIによる構造化データ）
+# - report.html           （最終レポート）
+```
+
+```bash
+# 6️⃣ 出力された report.html を開いて結果を確認
+$ open report.html       # macOS の場合
+$ start report.html      # Windows の場合
+```
+
+---
+
+### 💡 補足
+- `.env` は個人ごとにAPIキーを入れてください（共有しない）。
+- `.venv` はGoogle Driveには含まれていません。  
+  → 各自で作成＆パッケージをインストールすればOKです。
+- `requirements.txt` が環境再現のためのファイルです。

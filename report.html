@@ -1,0 +1,100 @@
+
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+    <meta charset="utf-8">
+    <title>機械トラブル</title>
+    <style>
+    body {
+      font-family: "Hiragino Sans", "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #f0f4f8, #ffffff);
+      color: #222;
+      line-height: 1.7;
+      margin: 40px auto;
+      max-width: 900px;
+      padding: 0 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+    }
+    h1 {
+      color: #0056b3;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      border-bottom: 3px solid #0078d7;
+      padding-bottom: 6px;
+      color: #005fa3;
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+    }
+    .date {
+      font-weight: bold;
+      color: #0078d7;
+      margin-top: 16px;
+      font-size: 1.1rem;
+    }
+    .time {
+      font-weight: bold;
+      color: #333;
+      margin-top: 8px;
+      font-size: 1rem;
+    }
+    .event {
+      background: #f5f9ff;
+      border-left: 5px solid #0078d7;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 10px 0;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .images img {
+      max-width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease;
+    }
+    .images img:hover {
+      transform: scale(1.03);
+    }
+    .summary-item {
+      margin: 6px 0;
+    }
+    </style>
+    </head>
+    <body>
+
+    <div class="card">
+      <h1>📋 機械トラブル</h1>
+      <p>📅 発生日: 2025-09-24　📍 A機械　👤 松本</p>
+    </div>
+
+    <div class="card">
+      <h2>📆 Progress（進捗）</h2>
+    <div class='date'>🗓️ 2025-08-25</div><div class='time'>⏰ 14:17:00</div><div class='event'>A機械で前処理実施</div><div class='time'>⏰ 14:58:00</div><div class='event'>異常アラームが発生<div class='images'><img src='output_images/トラブル21/トラブル21-1.png' alt='トラブル21-1.png'><img src='output_images/トラブル21/トラブル21-2.png' alt='トラブル21-2.png'></div></div><div class='event'>現場確認実施</div><div class='event'>外部で破損がされていることを発見<div class='images'><img src='output_images/トラブル21/トラブル21-3.png' alt='トラブル21-3.png'></div></div><div class='event'>製造の責任者を呼ぶ</div><div class='time'>⏰ 15:22:00</div><div class='event'>Aラインを停止</div><div class='event'>検査実施、異常なし</div><div class='time'>⏰ 21:35:00</div><div class='event'>Aライン起動</div><div class='date'>🗓️ 2025-08-26</div><div class='time'>⏰ 09:00:00</div><div class='event'>再度検査、異常なし</div>
+    </div>
+
+    <div class="card">
+      <h2>🧭 Summary（要約）</h2>
+      <p class="summary-item"><b>結果:</b> </p>
+      <p class="summary-item"><b>原因:</b> 経年劣化</p>
+      <p class="summary-item"><b>対策:</b> 予備品を購入し持つようにします。</p>
+    </div>
+
+    </body>
+    </html>
+    

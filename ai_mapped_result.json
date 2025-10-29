@@ -1,0 +1,85 @@
+{
+  "table": "incident_report",
+  "columns": {
+    "title": "機械トラブル",
+    "event_date": "2025-09-24",
+    "location": "A機械",
+    "reporter": "松本",
+    "progress": [
+      {
+        "date": "2025-08-25",
+        "timeline": [
+          {
+            "time": "14:17:00",
+            "description": "A機械で前処理実施",
+            "related_images": []
+          },
+          {
+            "time": "14:58:00",
+            "description": "異常アラームが発生",
+            "related_images": [
+              {
+                "image_name": "トラブル21-1.png",
+                "image_path": "output_images/トラブル21/トラブル21-1.png"
+              },
+              {
+                "image_name": "トラブル21-2.png",
+                "image_path": "output_images/トラブル21/トラブル21-2.png"
+              }
+            ]
+          },
+          {
+            "time": null,
+            "description": "現場確認実施",
+            "related_images": []
+          },
+          {
+            "time": null,
+            "description": "外部で破損がされていることを発見",
+            "related_images": [
+              {
+                "image_name": "トラブル21-3.png",
+                "image_path": "output_images/トラブル21/トラブル21-3.png"
+              }
+            ]
+          },
+          {
+            "time": null,
+            "description": "製造の責任者を呼ぶ",
+            "related_images": []
+          },
+          {
+            "time": "15:22:00",
+            "description": "Aラインを停止",
+            "related_images": []
+          },
+          {
+            "time": null,
+            "description": "検査実施、異常なし",
+            "related_images": []
+          },
+          {
+            "time": "21:35:00",
+            "description": "Aライン起動",
+            "related_images": []
+          }
+        ]
+      },
+      {
+        "date": "2025-08-26",
+        "timeline": [
+          {
+            "time": "09:00:00",
+            "description": "再度検査、異常なし",
+            "related_images": []
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "result": "",
+      "cause": "経年劣化",
+      "countermeasure": "予備品を購入し持つようにします。"
+    }
+  }
+}

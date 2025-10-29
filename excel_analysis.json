@@ -1,0 +1,188 @@
+{
+  "text_cells": [
+    {
+      "type": "text",
+      "cell": "A1",
+      "value": "表題"
+    },
+    {
+      "type": "text",
+      "cell": "B1",
+      "value": "機械トラブル"
+    },
+    {
+      "type": "text",
+      "cell": "A4",
+      "value": "【発生日】"
+    },
+    {
+      "type": "text",
+      "cell": "B4",
+      "value": "2025.9.24"
+    },
+    {
+      "type": "text",
+      "cell": "I4",
+      "value": "【作成日】　　"
+    },
+    {
+      "type": "text",
+      "cell": "J4",
+      "value": "2025.09.25"
+    },
+    {
+      "type": "text",
+      "cell": "A5",
+      "value": "【発生機器】"
+    },
+    {
+      "type": "text",
+      "cell": "B5",
+      "value": "A機械"
+    },
+    {
+      "type": "text",
+      "cell": "I5",
+      "value": "【報告者】　　"
+    },
+    {
+      "type": "text",
+      "cell": "J5",
+      "value": "松本"
+    },
+    {
+      "type": "text",
+      "cell": "A6",
+      "value": "【発生状況】"
+    },
+    {
+      "type": "text",
+      "cell": "B6",
+      "value": "A機械に破損を発見"
+    },
+    {
+      "type": "text",
+      "cell": "A7",
+      "value": "【生産遅延】"
+    },
+    {
+      "type": "text",
+      "cell": "B7",
+      "value": "3時間"
+    },
+    {
+      "type": "text",
+      "cell": "A10",
+      "value": "2025-08-25"
+    },
+    {
+      "type": "text",
+      "cell": "A11",
+      "value": "14:17:00"
+    },
+    {
+      "type": "text",
+      "cell": "B11",
+      "value": "A機械で前処理実施"
+    },
+    {
+      "type": "text",
+      "cell": "A14",
+      "value": "14:58:00"
+    },
+    {
+      "type": "text",
+      "cell": "B14",
+      "value": "異常アラームが発生"
+    },
+    {
+      "type": "text",
+      "cell": "B16",
+      "value": "現場確認実施"
+    },
+    {
+      "type": "text",
+      "cell": "B18",
+      "value": "外部で破損がされていることを発見"
+    },
+    {
+      "type": "text",
+      "cell": "B31",
+      "value": "製造の責任者を呼ぶ"
+    },
+    {
+      "type": "text",
+      "cell": "A33",
+      "value": "15:22:00"
+    },
+    {
+      "type": "text",
+      "cell": "B33",
+      "value": "Aラインを停止"
+    },
+    {
+      "type": "text",
+      "cell": "B35",
+      "value": "検査実施、異常なし"
+    },
+    {
+      "type": "text",
+      "cell": "A48",
+      "value": "21:35:00"
+    },
+    {
+      "type": "text",
+      "cell": "B48",
+      "value": "Aライン起動"
+    },
+    {
+      "type": "text",
+      "cell": "A53",
+      "value": "2025-08-26"
+    },
+    {
+      "type": "text",
+      "cell": "A56",
+      "value": "09:00:00"
+    },
+    {
+      "type": "text",
+      "cell": "B56",
+      "value": "再度検査、異常なし"
+    },
+    {
+      "type": "text",
+      "cell": "A64",
+      "value": "原因"
+    },
+    {
+      "type": "text",
+      "cell": "B64",
+      "value": "経年劣化"
+    },
+    {
+      "type": "text",
+      "cell": "A68",
+      "value": "対策"
+    },
+    {
+      "type": "text",
+      "cell": "B68",
+      "value": "予備品を購入し持つようにします。"
+    }
+  ],
+  "images": [
+    {
+      "image_name": "トラブル21-1.png",
+      "image_path": "output_images/トラブル21/トラブル21-1.png"
+    },
+    {
+      "image_name": "トラブル21-2.png",
+      "image_path": "output_images/トラブル21/トラブル21-2.png"
+    },
+    {
+      "image_name": "トラブル21-3.png",
+      "image_path": "output_images/トラブル21/トラブル21-3.png"
+    }
+  ]
+}

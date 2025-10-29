@@ -1,10 +1,9 @@
-
-    <!DOCTYPE html>
-    <html lang="ja">
-    <head>
-    <meta charset="utf-8">
-    <title>機械トラブル</title>
-    <style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>機械トラブル</title>
+  <style>
     body {
       font-family: "Hiragino Sans", "Segoe UI", sans-serif;
       background: linear-gradient(180deg, #f0f4f8, #ffffff);
@@ -74,27 +73,62 @@
     .summary-item {
       margin: 6px 0;
     }
-    </style>
-    </head>
-    <body>
+  </style>
+</head>
+<body>
 
-    <div class="card">
-      <h1>📋 機械トラブル</h1>
-      <p>📅 発生日: 2025-09-24　📍 A機械　👤 松本</p>
+  <div class="card">
+    <h1>📋 機械トラブル</h1>
+    <p>📅 発生日: 2025-09-24　📍 A機械　👤 松本</p>
+  </div>
+
+  <div class="card">
+    <h2>📆 Progress（進捗）</h2>
+
+    <div class="date">🗓️ 2025-08-25</div>
+    <div class="time">⏰ 12:00</div>
+    <div class="event">A機械で前処理実施</div>
+
+    <div class="time">⏰ 12:00</div>
+    <div class="event">
+      異常アラームが発生
     </div>
 
-    <div class="card">
-      <h2>📆 Progress（進捗）</h2>
-    <div class='date'>🗓️ 2025-08-25</div><div class='time'>⏰ 14:17:00</div><div class='event'>A機械で前処理実施</div><div class='time'>⏰ 14:58:00</div><div class='event'>異常アラームが発生<div class='images'><img src='output_images/トラブル21/トラブル21-1.png' alt='トラブル21-1.png'><img src='output_images/トラブル21/トラブル21-2.png' alt='トラブル21-2.png'></div></div><div class='event'>現場確認実施</div><div class='event'>外部で破損がされていることを発見<div class='images'><img src='output_images/トラブル21/トラブル21-3.png' alt='トラブル21-3.png'></div></div><div class='event'>製造の責任者を呼ぶ</div><div class='time'>⏰ 15:22:00</div><div class='event'>Aラインを停止</div><div class='event'>検査実施、異常なし</div><div class='time'>⏰ 21:35:00</div><div class='event'>Aライン起動</div><div class='date'>🗓️ 2025-08-26</div><div class='time'>⏰ 09:00:00</div><div class='event'>再度検査、異常なし</div>
+    <div class="event">現場確認実施</div>
+
+    <div class="event">
+      外部で破損がされていることを発見
+      <div class="images">
+        <img src="output_images/トラブル21/トラブル21-1.png" alt="トラブル21-1.png">
+        <img src="output_images/トラブル21/トラブル21-3.png" alt="トラブル21-3.png">
+      </div>
     </div>
 
-    <div class="card">
-      <h2>🧭 Summary（要約）</h2>
-      <p class="summary-item"><b>結果:</b> </p>
-      <p class="summary-item"><b>原因:</b> 経年劣化</p>
-      <p class="summary-item"><b>対策:</b> 予備品を購入し持つようにします。</p>
+    <div class="event">製造の責任者を呼ぶ</div>
+
+    <div class="time">⏰ 12:00</div>
+    <div class="event">Aラインを停止</div>
+
+    <div class="event">検査実施、異常なし
+        <div class="images">
+          <img src="output_images/トラブル21/トラブル21-2.png" alt="トラブル21-2.png">
+      </div>
     </div>
 
-    </body>
-    </html>
-    
+    <div class="time">⏰ 12:00</div>
+    <div class="event">Aライン起動</div>
+
+    <div class="date">🗓️ 2025-08-26</div>
+    <div class="time">⏰ 12:00</div>
+    <div class="event">再度検査、異常なし</div>
+  </div>
+
+  <div class="card">
+    <h2>🧭 Summary（要約）</h2>
+    <p class="summary-item"><b>結果:</b> </p>
+    <p class="summary-item"><b>原因:</b> 経年劣化</p>
+    <p class="summary-item"><b>対策:</b> 予備品を購入し持つようにします。</p>
+  </div>
+
+</body>
+</html>
